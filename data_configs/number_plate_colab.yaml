@@ -1,0 +1,17 @@
+TRAIN_DIR_IMAGES: /content/Train/images
+TRAIN_DIR_LABELS: /content/Train/labels
+
+VALID_DIR_IMAGES: /content/Validation/images
+VALID_DIR_LABELS: /content/Validation/labels
+
+TEST_DIR_IMAGES: /content/Test/images
+TEST_DIR_LABELS: /content/Test/labels
+
+CLASSES: [
+    '__background__',
+    'n'
+]
+
+NC: 2
+
+SAVE_VALID_PREDICTION_IMAGES: True
