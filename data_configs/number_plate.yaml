@@ -1,0 +1,23 @@
+# Images and labels direcotry should be relative to train.py
+TRAIN_DIR_IMAGES: /content/drive/MyDrive/Mahadi/Rcnn/images
+TRAIN_DIR_LABELS: /content/drive/MyDrive/Mahadi/Rcnn/xml
+
+VALID_DIR_IMAGES: /content/drive/MyDrive/Mahadi/Number_plate/test_images
+VALID_DIR_LABELS: /content/drive/MyDrive/Mahadi/Number_plate/test_labels
+
+# Optional test data path. If given, test paths (data) will be used in
+# `eval.py`.
+# TEST_DIR_IMAGES: 
+# TEST_DIR_LABELS: 
+
+# Class names.
+CLASSES: [
+    '__background__',
+    'number plate'
+]
+
+# Number of classes (object classes + 1 for background class in Faster RCNN).
+NC: 2
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True
